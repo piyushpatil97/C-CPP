@@ -71,9 +71,12 @@ int main() {
 
             s[a].sub1[1]) { 
 
-            e++; 
+       	e++; 
+
       } 
-    }  
+
+    } 
+
     printf("total no of pass student is : %d \n ", c); 
 
     printf("total no of student fail in one subject : %d \n ", d); 
@@ -81,3 +84,4 @@ int main() {
     printf("Total number of distinctions in the class :%d \n", e); 
 
 }
+

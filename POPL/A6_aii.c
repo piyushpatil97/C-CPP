@@ -12,7 +12,7 @@ int Fibonacci_series(int a){
             printf("% d | ",c);
         }}
 int main(){
-    int num ;
+    int num;
     printf("Enter no up yo you want Fibonacci series ");
     scanf("%d",&num);
     Fibonacci_series(num);

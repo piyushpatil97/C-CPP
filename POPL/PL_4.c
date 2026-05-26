@@ -4,7 +4,7 @@ void main(){
          int i,j,isprime;
 	 int primecount = 0,evencount = 0,oddcount = 0;
 
-		 // even count
+		
                   printf("Even numbers:\n");
 		  for(i=1;i<=1000;i++){
 		 if (i%2==0){
@@ -13,16 +13,15 @@ void main(){
 		 }
 	  
 		 }
-		  // odd count
-		  printf("\n\nOdd numbers:\n");
+		  
+		  printf("Odd numbers:\n");
 		  for (i=1;i<=1000;i++){
 		 if (i%2!=0){
 		 printf("%d",i);
 			  oddcount++;
 		  }
 	 }
-	 // prime check
-	 printf("\n\n Prime numbers:\n");
+	 printf("Prime numbers:\n");
 	 for(i=2;i<=1000;i++){
 		 if(i<1)
 		continue;
@@ -38,8 +37,6 @@ void main(){
 			 primecount++;
 		 }
 	 }
-      // final count
-
       printf("\nTotal Prime = %d\n",primecount);
       printf ("Total even = %d\n",evencount);
       printf("Total odd = %d\n",oddcount);

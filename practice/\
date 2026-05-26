@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+void main (){
+             int x;
+
+        printf("HEllo\n");
+
+        fclose(stdin);
+
+	scanf("%d",&x);
+        printf("Hiii\n");
+        printf("HEllo\n");
+
+}
